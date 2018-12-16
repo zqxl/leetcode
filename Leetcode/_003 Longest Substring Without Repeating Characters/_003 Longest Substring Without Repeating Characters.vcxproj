@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3354F2AB-E2C1-422F-AAB9-135024886DF8}</ProjectGuid>
+    <ProjectGuid>{C2CDEF55-302E-4391-A05E-C734F8E334A8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Leetcode</RootNamespace>
+    <RootNamespace>_003LongestSubstringWithoutRepeatingCharacters</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,7 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="_002 Add Two Numbers.cpp" />
+    <ClCompile Include="_003 Longest Substring Without Repeating Characters.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
