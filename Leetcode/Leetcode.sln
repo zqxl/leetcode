@@ -7,6 +7,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_002 Add Two Numbers", "_00
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_003 Longest Substring Without Repeating Characters", "_003 Longest Substring Without Repeating Characters\_003 Longest Substring Without Repeating Characters.vcxproj", "{C2CDEF55-302E-4391-A05E-C734F8E334A8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_001 Two Sum", "_001 Two Sum\_001 Two Sum.vcxproj", "{C0EB305F-52CE-44CA-9643-03AFCE964872}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_007 Reverse Integer", "_007 Reverse Integer\_007 Reverse Integer.vcxproj", "{1FC4CA11-F74A-4D7E-AC02-396879F7CE53}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_009 Palindrome Number", "_009 Palindrome Number\_009 Palindrome Number.vcxproj", "{179E8E42-D98D-432A-8E88-69133D9C9428}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +27,18 @@ Global
 		{C2CDEF55-302E-4391-A05E-C734F8E334A8}.Debug|Win32.Build.0 = Debug|Win32
 		{C2CDEF55-302E-4391-A05E-C734F8E334A8}.Release|Win32.ActiveCfg = Release|Win32
 		{C2CDEF55-302E-4391-A05E-C734F8E334A8}.Release|Win32.Build.0 = Release|Win32
+		{C0EB305F-52CE-44CA-9643-03AFCE964872}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C0EB305F-52CE-44CA-9643-03AFCE964872}.Debug|Win32.Build.0 = Debug|Win32
+		{C0EB305F-52CE-44CA-9643-03AFCE964872}.Release|Win32.ActiveCfg = Release|Win32
+		{C0EB305F-52CE-44CA-9643-03AFCE964872}.Release|Win32.Build.0 = Release|Win32
+		{1FC4CA11-F74A-4D7E-AC02-396879F7CE53}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1FC4CA11-F74A-4D7E-AC02-396879F7CE53}.Debug|Win32.Build.0 = Debug|Win32
+		{1FC4CA11-F74A-4D7E-AC02-396879F7CE53}.Release|Win32.ActiveCfg = Release|Win32
+		{1FC4CA11-F74A-4D7E-AC02-396879F7CE53}.Release|Win32.Build.0 = Release|Win32
+		{179E8E42-D98D-432A-8E88-69133D9C9428}.Debug|Win32.ActiveCfg = Debug|Win32
+		{179E8E42-D98D-432A-8E88-69133D9C9428}.Debug|Win32.Build.0 = Debug|Win32
+		{179E8E42-D98D-432A-8E88-69133D9C9428}.Release|Win32.ActiveCfg = Release|Win32
+		{179E8E42-D98D-432A-8E88-69133D9C9428}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
