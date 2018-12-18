@@ -13,6 +13,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_007 Reverse Integer", "_00
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_009 Palindrome Number", "_009 Palindrome Number\_009 Palindrome Number.vcxproj", "{179E8E42-D98D-432A-8E88-69133D9C9428}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_013 Roman to Integer", "_013 Roman to Integer\_013 Roman to Integer.vcxproj", "{592D06E7-F8B6-4E5C-932A-1B2623499184}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_20 Valid Parentheses", "_20 Valid Parentheses\_20 Valid Parentheses.vcxproj", "{9C7335BF-153A-436F-BC65-9AD2B8D34557}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +43,14 @@ Global
 		{179E8E42-D98D-432A-8E88-69133D9C9428}.Debug|Win32.Build.0 = Debug|Win32
 		{179E8E42-D98D-432A-8E88-69133D9C9428}.Release|Win32.ActiveCfg = Release|Win32
 		{179E8E42-D98D-432A-8E88-69133D9C9428}.Release|Win32.Build.0 = Release|Win32
+		{592D06E7-F8B6-4E5C-932A-1B2623499184}.Debug|Win32.ActiveCfg = Debug|Win32
+		{592D06E7-F8B6-4E5C-932A-1B2623499184}.Debug|Win32.Build.0 = Debug|Win32
+		{592D06E7-F8B6-4E5C-932A-1B2623499184}.Release|Win32.ActiveCfg = Release|Win32
+		{592D06E7-F8B6-4E5C-932A-1B2623499184}.Release|Win32.Build.0 = Release|Win32
+		{9C7335BF-153A-436F-BC65-9AD2B8D34557}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C7335BF-153A-436F-BC65-9AD2B8D34557}.Debug|Win32.Build.0 = Debug|Win32
+		{9C7335BF-153A-436F-BC65-9AD2B8D34557}.Release|Win32.ActiveCfg = Release|Win32
+		{9C7335BF-153A-436F-BC65-9AD2B8D34557}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
