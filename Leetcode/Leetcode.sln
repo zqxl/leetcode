@@ -15,7 +15,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_009 Palindrome Number", "_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_013 Roman to Integer", "_013 Roman to Integer\_013 Roman to Integer.vcxproj", "{592D06E7-F8B6-4E5C-932A-1B2623499184}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_20 Valid Parentheses", "_20 Valid Parentheses\_20 Valid Parentheses.vcxproj", "{9C7335BF-153A-436F-BC65-9AD2B8D34557}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_020 Valid Parentheses", "_20 Valid Parentheses\_20 Valid Parentheses.vcxproj", "{9C7335BF-153A-436F-BC65-9AD2B8D34557}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_014 Longest Common Prefix", "_014 Longest Common Prefix\_014 Longest Common Prefix.vcxproj", "{D75FFA73-4FEC-4F24-9B55-41F254446BA8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_021 Merge Two Sorted Lists", "_021 Merge Two Sorted Lists\_021 Merge Two Sorted Lists.vcxproj", "{073248AD-5475-42DE-8582-32D8FB98F101}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{9C7335BF-153A-436F-BC65-9AD2B8D34557}.Debug|Win32.Build.0 = Debug|Win32
 		{9C7335BF-153A-436F-BC65-9AD2B8D34557}.Release|Win32.ActiveCfg = Release|Win32
 		{9C7335BF-153A-436F-BC65-9AD2B8D34557}.Release|Win32.Build.0 = Release|Win32
+		{D75FFA73-4FEC-4F24-9B55-41F254446BA8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D75FFA73-4FEC-4F24-9B55-41F254446BA8}.Debug|Win32.Build.0 = Debug|Win32
+		{D75FFA73-4FEC-4F24-9B55-41F254446BA8}.Release|Win32.ActiveCfg = Release|Win32
+		{D75FFA73-4FEC-4F24-9B55-41F254446BA8}.Release|Win32.Build.0 = Release|Win32
+		{073248AD-5475-42DE-8582-32D8FB98F101}.Debug|Win32.ActiveCfg = Debug|Win32
+		{073248AD-5475-42DE-8582-32D8FB98F101}.Debug|Win32.Build.0 = Debug|Win32
+		{073248AD-5475-42DE-8582-32D8FB98F101}.Release|Win32.ActiveCfg = Release|Win32
+		{073248AD-5475-42DE-8582-32D8FB98F101}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
