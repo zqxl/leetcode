@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_021 Merge Two Sorted Lists
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_020 Valid Parentheses", "_020 Valid Parentheses\_020 Valid Parentheses.vcxproj", "{E6A288EA-2F75-4A35-9E9F-3E8B15EDFC55}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_026 Remove Duplicates from Sorted Array", "_026 Remove Duplicates from Sorted Array\_026 Remove Duplicates from Sorted Array.vcxproj", "{9C5E77DB-AD7E-492C-8961-C9444C0999AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -63,6 +65,10 @@ Global
 		{E6A288EA-2F75-4A35-9E9F-3E8B15EDFC55}.Debug|Win32.Build.0 = Debug|Win32
 		{E6A288EA-2F75-4A35-9E9F-3E8B15EDFC55}.Release|Win32.ActiveCfg = Release|Win32
 		{E6A288EA-2F75-4A35-9E9F-3E8B15EDFC55}.Release|Win32.Build.0 = Release|Win32
+		{9C5E77DB-AD7E-492C-8961-C9444C0999AD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C5E77DB-AD7E-492C-8961-C9444C0999AD}.Debug|Win32.Build.0 = Debug|Win32
+		{9C5E77DB-AD7E-492C-8961-C9444C0999AD}.Release|Win32.ActiveCfg = Release|Win32
+		{9C5E77DB-AD7E-492C-8961-C9444C0999AD}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
