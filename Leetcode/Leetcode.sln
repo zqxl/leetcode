@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_028 Implement strStr", "_0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_035 Search Insert Position", "_035 Search Insert Position\_035 Search Insert Position.vcxproj", "{241E9FC4-6266-429E-B324-25CBED534864}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_038 Count and Say", "_038 Count and Say\_038 Count and Say.vcxproj", "{8D23458D-4C79-46C7-819D-EB3EB7914A76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -87,6 +89,10 @@ Global
 		{241E9FC4-6266-429E-B324-25CBED534864}.Debug|Win32.Build.0 = Debug|Win32
 		{241E9FC4-6266-429E-B324-25CBED534864}.Release|Win32.ActiveCfg = Release|Win32
 		{241E9FC4-6266-429E-B324-25CBED534864}.Release|Win32.Build.0 = Release|Win32
+		{8D23458D-4C79-46C7-819D-EB3EB7914A76}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D23458D-4C79-46C7-819D-EB3EB7914A76}.Debug|Win32.Build.0 = Debug|Win32
+		{8D23458D-4C79-46C7-819D-EB3EB7914A76}.Release|Win32.ActiveCfg = Release|Win32
+		{8D23458D-4C79-46C7-819D-EB3EB7914A76}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
