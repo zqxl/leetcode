@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_058 Length of Last Word", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_066 Plus One", "_066 Plus One\_066 Plus One.vcxproj", "{8B8E10E9-88AF-4C82-8616-0A19EB5AC6E6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_067 Add Binary", "_067 Add Binary\_067 Add Binary.vcxproj", "{49F47507-7653-4245-A049-532F5CE4DE2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -111,6 +113,10 @@ Global
 		{8B8E10E9-88AF-4C82-8616-0A19EB5AC6E6}.Debug|Win32.Build.0 = Debug|Win32
 		{8B8E10E9-88AF-4C82-8616-0A19EB5AC6E6}.Release|Win32.ActiveCfg = Release|Win32
 		{8B8E10E9-88AF-4C82-8616-0A19EB5AC6E6}.Release|Win32.Build.0 = Release|Win32
+		{49F47507-7653-4245-A049-532F5CE4DE2E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{49F47507-7653-4245-A049-532F5CE4DE2E}.Debug|Win32.Build.0 = Debug|Win32
+		{49F47507-7653-4245-A049-532F5CE4DE2E}.Release|Win32.ActiveCfg = Release|Win32
+		{49F47507-7653-4245-A049-532F5CE4DE2E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
