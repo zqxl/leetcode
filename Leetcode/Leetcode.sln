@@ -43,6 +43,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_069 Sqrt_x", "_069 Sqrt_x\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_070 Climbing Stairs", "_070 Climbing Stairs\_070 Climbing Stairs.vcxproj", "{E97221AA-2211-4652-8370-712D04C01569}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_083 Remove Duplicates from Sorted List", "_083 Remove Duplicates from Sorted List\_083 Remove Duplicates from Sorted List.vcxproj", "{275A9615-AE0B-4109-BDF7-E396F5CCC103}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_088 Merge Sorted Array", "_088 Merge Sorted Array\_088 Merge Sorted Array.vcxproj", "{BFDF5A8D-869A-4550-8EAB-924C6F930CD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -129,6 +133,14 @@ Global
 		{E97221AA-2211-4652-8370-712D04C01569}.Debug|Win32.Build.0 = Debug|Win32
 		{E97221AA-2211-4652-8370-712D04C01569}.Release|Win32.ActiveCfg = Release|Win32
 		{E97221AA-2211-4652-8370-712D04C01569}.Release|Win32.Build.0 = Release|Win32
+		{275A9615-AE0B-4109-BDF7-E396F5CCC103}.Debug|Win32.ActiveCfg = Debug|Win32
+		{275A9615-AE0B-4109-BDF7-E396F5CCC103}.Debug|Win32.Build.0 = Debug|Win32
+		{275A9615-AE0B-4109-BDF7-E396F5CCC103}.Release|Win32.ActiveCfg = Release|Win32
+		{275A9615-AE0B-4109-BDF7-E396F5CCC103}.Release|Win32.Build.0 = Release|Win32
+		{BFDF5A8D-869A-4550-8EAB-924C6F930CD6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFDF5A8D-869A-4550-8EAB-924C6F930CD6}.Debug|Win32.Build.0 = Debug|Win32
+		{BFDF5A8D-869A-4550-8EAB-924C6F930CD6}.Release|Win32.ActiveCfg = Release|Win32
+		{BFDF5A8D-869A-4550-8EAB-924C6F930CD6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
