@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_083 Remove Duplicates from
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_088 Merge Sorted Array", "_088 Merge Sorted Array\_088 Merge Sorted Array.vcxproj", "{BFDF5A8D-869A-4550-8EAB-924C6F930CD6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_100 Same Tree", "_100 Same Tree\_100 Same Tree.vcxproj", "{6796D092-12C4-4170-B0B9-4DF69E22BD22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -141,6 +143,10 @@ Global
 		{BFDF5A8D-869A-4550-8EAB-924C6F930CD6}.Debug|Win32.Build.0 = Debug|Win32
 		{BFDF5A8D-869A-4550-8EAB-924C6F930CD6}.Release|Win32.ActiveCfg = Release|Win32
 		{BFDF5A8D-869A-4550-8EAB-924C6F930CD6}.Release|Win32.Build.0 = Release|Win32
+		{6796D092-12C4-4170-B0B9-4DF69E22BD22}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6796D092-12C4-4170-B0B9-4DF69E22BD22}.Debug|Win32.Build.0 = Debug|Win32
+		{6796D092-12C4-4170-B0B9-4DF69E22BD22}.Release|Win32.ActiveCfg = Release|Win32
+		{6796D092-12C4-4170-B0B9-4DF69E22BD22}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
