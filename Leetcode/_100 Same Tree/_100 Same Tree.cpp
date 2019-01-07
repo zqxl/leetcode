@@ -10,15 +10,54 @@ struct TreeNode {
 
 // 迭代方式，利用栈结构对两个树进行遍历
 bool isSameTree(struct TreeNode* p, struct TreeNode* q) {
-	TreeNode *stack_p = (TreeNode*)malloc(sizeof(TreeNode) * 4096);
+	struct TreeNode *stack_p = (struct TreeNode*)malloc(sizeof(struct TreeNode) * 4096);
 	int size_p = 0;
-	TreeNode *stack_q = (TreeNode*)malloc(sizeof(TreeNode) * 4096);
+	struct TreeNode *stack_q = (struct TreeNode*)malloc(sizeof(struct TreeNode) * 4096);
 	int size_q = 0;
 	int i = 0;
-	while (1){
-		stack_p[i] = *p;
+	if (p && q){
+		stack_p[size_p] = *p;
+		size_p++;
+		stack_q[size_p] = *q;
+		size_q++;
 	}
-	return 0;
+	else if (p == NULL  & q == NULL)
+		return true;
+	else
+		return false;
+
+	while (size_p){
+		// 判断当前出栈节点数据是否相同
+		size_p--;
+		size_q--;
+		p = &stack_p[size_p];
+		q = &stack_q[size_q];
+		if (p->val != q->val){
+			return false;
+		}
+
+		//判断非空，然后入栈
+		// 右孩子先入栈
+		if (p->right && q->right){
+			stack_p[size_p] = *p->right;
+			size_p++;
+			stack_q[size_p] = *q->right;
+			size_q++;
+		}
+		else if (p->right == NULL && q->right == NULL);
+		else return false;
+
+		// 左孩子入栈
+		if (p->left && q->left){
+			stack_p[size_p] = *p->left;
+			size_p++;
+			stack_q[size_p] = *q->left;
+			size_q++;
+		}
+		else if (p->left == NULL && q->left == NULL);
+		else return false;
+	}
+	return true;
 }
 
 // 递归 原文：https ://blog.csdn.net/xishirujin_/article/details/51235733 
