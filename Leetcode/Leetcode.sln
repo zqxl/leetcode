@@ -51,6 +51,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_100 Same Tree", "_100 Same
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_101 Symmetric Tree", "_101 Symmetric Tree\_101 Symmetric Tree.vcxproj", "{9FE7C553-735C-4F3E-ACB3-474E4F614827}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_104 Maximum Depth of Binary Tree", "_104 Maximum Depth of Binary Tree\_104 Maximum Depth of Binary Tree.vcxproj", "{BE2A6BAD-4F9D-4471-B335-ED066DCF3CCB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_107 Binary Tree Level Order Traversal II", "_107 Binary Tree Level Order Traversal II\_107 Binary Tree Level Order Traversal II.vcxproj", "{69190D9A-1DDB-47D8-BDCA-C5690FF0106E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -205,6 +209,22 @@ Global
 		{9FE7C553-735C-4F3E-ACB3-474E4F614827}.Release|Win32.Build.0 = Release|Win32
 		{9FE7C553-735C-4F3E-ACB3-474E4F614827}.Release|x64.ActiveCfg = Release|x64
 		{9FE7C553-735C-4F3E-ACB3-474E4F614827}.Release|x64.Build.0 = Release|x64
+		{BE2A6BAD-4F9D-4471-B335-ED066DCF3CCB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BE2A6BAD-4F9D-4471-B335-ED066DCF3CCB}.Debug|Win32.Build.0 = Debug|Win32
+		{BE2A6BAD-4F9D-4471-B335-ED066DCF3CCB}.Debug|x64.ActiveCfg = Debug|x64
+		{BE2A6BAD-4F9D-4471-B335-ED066DCF3CCB}.Debug|x64.Build.0 = Debug|x64
+		{BE2A6BAD-4F9D-4471-B335-ED066DCF3CCB}.Release|Win32.ActiveCfg = Release|Win32
+		{BE2A6BAD-4F9D-4471-B335-ED066DCF3CCB}.Release|Win32.Build.0 = Release|Win32
+		{BE2A6BAD-4F9D-4471-B335-ED066DCF3CCB}.Release|x64.ActiveCfg = Release|x64
+		{BE2A6BAD-4F9D-4471-B335-ED066DCF3CCB}.Release|x64.Build.0 = Release|x64
+		{69190D9A-1DDB-47D8-BDCA-C5690FF0106E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69190D9A-1DDB-47D8-BDCA-C5690FF0106E}.Debug|Win32.Build.0 = Debug|Win32
+		{69190D9A-1DDB-47D8-BDCA-C5690FF0106E}.Debug|x64.ActiveCfg = Debug|x64
+		{69190D9A-1DDB-47D8-BDCA-C5690FF0106E}.Debug|x64.Build.0 = Debug|x64
+		{69190D9A-1DDB-47D8-BDCA-C5690FF0106E}.Release|Win32.ActiveCfg = Release|Win32
+		{69190D9A-1DDB-47D8-BDCA-C5690FF0106E}.Release|Win32.Build.0 = Release|Win32
+		{69190D9A-1DDB-47D8-BDCA-C5690FF0106E}.Release|x64.ActiveCfg = Release|x64
+		{69190D9A-1DDB-47D8-BDCA-C5690FF0106E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
