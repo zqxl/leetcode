@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_104 Maximum Depth of Binar
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_107 Binary Tree Level Order Traversal II", "_107 Binary Tree Level Order Traversal II\_107 Binary Tree Level Order Traversal II.vcxproj", "{69190D9A-1DDB-47D8-BDCA-C5690FF0106E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_108 Convert Sorted Array to Binary Search Tree", "_108 Convert Sorted Array to Binary Search Tree\_108 Convert Sorted Array to Binary Search Tree.vcxproj", "{335A3E09-6ECF-487A-9A99-93D092AEAF32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -225,6 +227,14 @@ Global
 		{69190D9A-1DDB-47D8-BDCA-C5690FF0106E}.Release|Win32.Build.0 = Release|Win32
 		{69190D9A-1DDB-47D8-BDCA-C5690FF0106E}.Release|x64.ActiveCfg = Release|x64
 		{69190D9A-1DDB-47D8-BDCA-C5690FF0106E}.Release|x64.Build.0 = Release|x64
+		{335A3E09-6ECF-487A-9A99-93D092AEAF32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{335A3E09-6ECF-487A-9A99-93D092AEAF32}.Debug|Win32.Build.0 = Debug|Win32
+		{335A3E09-6ECF-487A-9A99-93D092AEAF32}.Debug|x64.ActiveCfg = Debug|x64
+		{335A3E09-6ECF-487A-9A99-93D092AEAF32}.Debug|x64.Build.0 = Debug|x64
+		{335A3E09-6ECF-487A-9A99-93D092AEAF32}.Release|Win32.ActiveCfg = Release|Win32
+		{335A3E09-6ECF-487A-9A99-93D092AEAF32}.Release|Win32.Build.0 = Release|Win32
+		{335A3E09-6ECF-487A-9A99-93D092AEAF32}.Release|x64.ActiveCfg = Release|x64
+		{335A3E09-6ECF-487A-9A99-93D092AEAF32}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
