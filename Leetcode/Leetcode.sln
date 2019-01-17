@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_107 Binary Tree Level Orde
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_108 Convert Sorted Array to Binary Search Tree", "_108 Convert Sorted Array to Binary Search Tree\_108 Convert Sorted Array to Binary Search Tree.vcxproj", "{335A3E09-6ECF-487A-9A99-93D092AEAF32}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_110 Balanced Binary Tree", "_110 Balanced Binary Tree\_110 Balanced Binary Tree.vcxproj", "{CAD8CE0A-2B95-424A-9710-03E783B08986}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -235,6 +237,14 @@ Global
 		{335A3E09-6ECF-487A-9A99-93D092AEAF32}.Release|Win32.Build.0 = Release|Win32
 		{335A3E09-6ECF-487A-9A99-93D092AEAF32}.Release|x64.ActiveCfg = Release|x64
 		{335A3E09-6ECF-487A-9A99-93D092AEAF32}.Release|x64.Build.0 = Release|x64
+		{CAD8CE0A-2B95-424A-9710-03E783B08986}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CAD8CE0A-2B95-424A-9710-03E783B08986}.Debug|Win32.Build.0 = Debug|Win32
+		{CAD8CE0A-2B95-424A-9710-03E783B08986}.Debug|x64.ActiveCfg = Debug|x64
+		{CAD8CE0A-2B95-424A-9710-03E783B08986}.Debug|x64.Build.0 = Debug|x64
+		{CAD8CE0A-2B95-424A-9710-03E783B08986}.Release|Win32.ActiveCfg = Release|Win32
+		{CAD8CE0A-2B95-424A-9710-03E783B08986}.Release|Win32.Build.0 = Release|Win32
+		{CAD8CE0A-2B95-424A-9710-03E783B08986}.Release|x64.ActiveCfg = Release|x64
+		{CAD8CE0A-2B95-424A-9710-03E783B08986}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
