@@ -130,7 +130,7 @@ struct TreeNode* sortedArrayToBST1(int* nums, int numsSize) {
 	return sortedSubArrayToBST(nums, 0, numsSize);
 }
 
-// ************************************      leetcode 4ms´úÂë     ***************************
+// ************************************      leetcode 4ms´úÂë     **************************************
 struct TreeNode* sortedArrayToBST(int* nums, int numsSize) {
 	if (numsSize<1)
 		return NULL;
