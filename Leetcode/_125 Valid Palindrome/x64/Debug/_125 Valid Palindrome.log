@@ -1,0 +1,4 @@
+﻿  _125 Valid Palindrome.cpp
+g:\myprojects2017\vs2013\leedtcode\leetcode\_125 valid palindrome\_125 valid palindrome.cpp(13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  _125 Valid Palindrome.vcxproj -> G:\myprojects2017\vs2013\leedtcode\Leetcode\x64\Debug\_125 Valid Palindrome.exe
+  _125 Valid Palindrome.vcxproj -> G:\myprojects2017\vs2013\leedtcode\Leetcode\x64\Debug\_125 Valid Palindrome.pdb (Full PDB)
