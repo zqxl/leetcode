@@ -79,6 +79,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_141 Linked List Cycle", "_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_155 Min Stack", "_155 Min Stack\_155 Min Stack.vcxproj", "{DDF29F17-25BF-41CC-A51C-A2C5A8E685C2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_160 Intersection of Two Linked Lists", "_160 Intersection of Two Linked Lists\_160 Intersection of Two Linked Lists.vcxproj", "{5F9E020B-5E47-4F87-9B8B-24EA5CA54539}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_167 Two Sum II - Input array is sorted", "_167 Two Sum II - Input array is sorted\_167 Two Sum II - Input array is sorted.vcxproj", "{B3AA300C-9F17-4574-860E-1CDD03950855}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -345,6 +349,22 @@ Global
 		{DDF29F17-25BF-41CC-A51C-A2C5A8E685C2}.Release|Win32.Build.0 = Release|Win32
 		{DDF29F17-25BF-41CC-A51C-A2C5A8E685C2}.Release|x64.ActiveCfg = Release|x64
 		{DDF29F17-25BF-41CC-A51C-A2C5A8E685C2}.Release|x64.Build.0 = Release|x64
+		{5F9E020B-5E47-4F87-9B8B-24EA5CA54539}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F9E020B-5E47-4F87-9B8B-24EA5CA54539}.Debug|Win32.Build.0 = Debug|Win32
+		{5F9E020B-5E47-4F87-9B8B-24EA5CA54539}.Debug|x64.ActiveCfg = Debug|x64
+		{5F9E020B-5E47-4F87-9B8B-24EA5CA54539}.Debug|x64.Build.0 = Debug|x64
+		{5F9E020B-5E47-4F87-9B8B-24EA5CA54539}.Release|Win32.ActiveCfg = Release|Win32
+		{5F9E020B-5E47-4F87-9B8B-24EA5CA54539}.Release|Win32.Build.0 = Release|Win32
+		{5F9E020B-5E47-4F87-9B8B-24EA5CA54539}.Release|x64.ActiveCfg = Release|x64
+		{5F9E020B-5E47-4F87-9B8B-24EA5CA54539}.Release|x64.Build.0 = Release|x64
+		{B3AA300C-9F17-4574-860E-1CDD03950855}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B3AA300C-9F17-4574-860E-1CDD03950855}.Debug|Win32.Build.0 = Debug|Win32
+		{B3AA300C-9F17-4574-860E-1CDD03950855}.Debug|x64.ActiveCfg = Debug|x64
+		{B3AA300C-9F17-4574-860E-1CDD03950855}.Debug|x64.Build.0 = Debug|x64
+		{B3AA300C-9F17-4574-860E-1CDD03950855}.Release|Win32.ActiveCfg = Release|Win32
+		{B3AA300C-9F17-4574-860E-1CDD03950855}.Release|Win32.Build.0 = Release|Win32
+		{B3AA300C-9F17-4574-860E-1CDD03950855}.Release|x64.ActiveCfg = Release|x64
+		{B3AA300C-9F17-4574-860E-1CDD03950855}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
