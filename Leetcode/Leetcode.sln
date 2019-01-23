@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_160 Intersection of Two Li
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_167 Two Sum II - Input array is sorted", "_167 Two Sum II - Input array is sorted\_167 Two Sum II - Input array is sorted.vcxproj", "{B3AA300C-9F17-4574-860E-1CDD03950855}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_168 Excel Sheet Column Title", "_168 Excel Sheet Column Title\_168 Excel Sheet Column Title.vcxproj", "{7E853D1B-7745-4EEF-A581-F299FAE5C744}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -365,6 +367,14 @@ Global
 		{B3AA300C-9F17-4574-860E-1CDD03950855}.Release|Win32.Build.0 = Release|Win32
 		{B3AA300C-9F17-4574-860E-1CDD03950855}.Release|x64.ActiveCfg = Release|x64
 		{B3AA300C-9F17-4574-860E-1CDD03950855}.Release|x64.Build.0 = Release|x64
+		{7E853D1B-7745-4EEF-A581-F299FAE5C744}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E853D1B-7745-4EEF-A581-F299FAE5C744}.Debug|Win32.Build.0 = Debug|Win32
+		{7E853D1B-7745-4EEF-A581-F299FAE5C744}.Debug|x64.ActiveCfg = Debug|x64
+		{7E853D1B-7745-4EEF-A581-F299FAE5C744}.Debug|x64.Build.0 = Debug|x64
+		{7E853D1B-7745-4EEF-A581-F299FAE5C744}.Release|Win32.ActiveCfg = Release|Win32
+		{7E853D1B-7745-4EEF-A581-F299FAE5C744}.Release|Win32.Build.0 = Release|Win32
+		{7E853D1B-7745-4EEF-A581-F299FAE5C744}.Release|x64.ActiveCfg = Release|x64
+		{7E853D1B-7745-4EEF-A581-F299FAE5C744}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
