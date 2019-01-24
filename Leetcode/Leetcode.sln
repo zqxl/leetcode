@@ -85,6 +85,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_167 Two Sum II - Input arr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_168 Excel Sheet Column Title", "_168 Excel Sheet Column Title\_168 Excel Sheet Column Title.vcxproj", "{7E853D1B-7745-4EEF-A581-F299FAE5C744}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_169 Majority Element", "_169 Majority Element\_169 Majority Element.vcxproj", "{10E1F86A-BF26-4480-887B-26B1D77DB09D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_171 Excel Sheet Column Number", "_171 Excel Sheet Column Number\_171 Excel Sheet Column Number.vcxproj", "{110745D3-00A2-430A-9E5F-94262DAB3049}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_172 Factorial Trailing Zeroes", "_172 Factorial Trailing Zeroes\_172 Factorial Trailing Zeroes.vcxproj", "{26417E51-4C24-4FB1-A3CB-017703786D05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -375,6 +381,30 @@ Global
 		{7E853D1B-7745-4EEF-A581-F299FAE5C744}.Release|Win32.Build.0 = Release|Win32
 		{7E853D1B-7745-4EEF-A581-F299FAE5C744}.Release|x64.ActiveCfg = Release|x64
 		{7E853D1B-7745-4EEF-A581-F299FAE5C744}.Release|x64.Build.0 = Release|x64
+		{10E1F86A-BF26-4480-887B-26B1D77DB09D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10E1F86A-BF26-4480-887B-26B1D77DB09D}.Debug|Win32.Build.0 = Debug|Win32
+		{10E1F86A-BF26-4480-887B-26B1D77DB09D}.Debug|x64.ActiveCfg = Debug|x64
+		{10E1F86A-BF26-4480-887B-26B1D77DB09D}.Debug|x64.Build.0 = Debug|x64
+		{10E1F86A-BF26-4480-887B-26B1D77DB09D}.Release|Win32.ActiveCfg = Release|Win32
+		{10E1F86A-BF26-4480-887B-26B1D77DB09D}.Release|Win32.Build.0 = Release|Win32
+		{10E1F86A-BF26-4480-887B-26B1D77DB09D}.Release|x64.ActiveCfg = Release|x64
+		{10E1F86A-BF26-4480-887B-26B1D77DB09D}.Release|x64.Build.0 = Release|x64
+		{110745D3-00A2-430A-9E5F-94262DAB3049}.Debug|Win32.ActiveCfg = Debug|Win32
+		{110745D3-00A2-430A-9E5F-94262DAB3049}.Debug|Win32.Build.0 = Debug|Win32
+		{110745D3-00A2-430A-9E5F-94262DAB3049}.Debug|x64.ActiveCfg = Debug|x64
+		{110745D3-00A2-430A-9E5F-94262DAB3049}.Debug|x64.Build.0 = Debug|x64
+		{110745D3-00A2-430A-9E5F-94262DAB3049}.Release|Win32.ActiveCfg = Release|Win32
+		{110745D3-00A2-430A-9E5F-94262DAB3049}.Release|Win32.Build.0 = Release|Win32
+		{110745D3-00A2-430A-9E5F-94262DAB3049}.Release|x64.ActiveCfg = Release|x64
+		{110745D3-00A2-430A-9E5F-94262DAB3049}.Release|x64.Build.0 = Release|x64
+		{26417E51-4C24-4FB1-A3CB-017703786D05}.Debug|Win32.ActiveCfg = Debug|Win32
+		{26417E51-4C24-4FB1-A3CB-017703786D05}.Debug|Win32.Build.0 = Debug|Win32
+		{26417E51-4C24-4FB1-A3CB-017703786D05}.Debug|x64.ActiveCfg = Debug|x64
+		{26417E51-4C24-4FB1-A3CB-017703786D05}.Debug|x64.Build.0 = Debug|x64
+		{26417E51-4C24-4FB1-A3CB-017703786D05}.Release|Win32.ActiveCfg = Release|Win32
+		{26417E51-4C24-4FB1-A3CB-017703786D05}.Release|Win32.Build.0 = Release|Win32
+		{26417E51-4C24-4FB1-A3CB-017703786D05}.Release|x64.ActiveCfg = Release|x64
+		{26417E51-4C24-4FB1-A3CB-017703786D05}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
