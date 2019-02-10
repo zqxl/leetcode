@@ -125,6 +125,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_235 Lowest Common Ancestor
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_237 Delete Node in a Linked List", "_237 Delete Node in a Linked List\_237 Delete Node in a Linked List.vcxproj", "{809A0F83-F198-4471-BD6D-B4A259C7A45E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_242 Valid Anagram", "_242 Valid Anagram\_242 Valid Anagram.vcxproj", "{52B3EE52-3327-4151-9920-715F35E4269A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_257 Binary Tree Paths", "_257 Binary Tree Paths\_257 Binary Tree Paths.vcxproj", "{3DBD56C2-EA8F-459D-BE99-C798FC7E6045}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -575,6 +579,22 @@ Global
 		{809A0F83-F198-4471-BD6D-B4A259C7A45E}.Release|Win32.Build.0 = Release|Win32
 		{809A0F83-F198-4471-BD6D-B4A259C7A45E}.Release|x64.ActiveCfg = Release|x64
 		{809A0F83-F198-4471-BD6D-B4A259C7A45E}.Release|x64.Build.0 = Release|x64
+		{52B3EE52-3327-4151-9920-715F35E4269A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{52B3EE52-3327-4151-9920-715F35E4269A}.Debug|Win32.Build.0 = Debug|Win32
+		{52B3EE52-3327-4151-9920-715F35E4269A}.Debug|x64.ActiveCfg = Debug|x64
+		{52B3EE52-3327-4151-9920-715F35E4269A}.Debug|x64.Build.0 = Debug|x64
+		{52B3EE52-3327-4151-9920-715F35E4269A}.Release|Win32.ActiveCfg = Release|Win32
+		{52B3EE52-3327-4151-9920-715F35E4269A}.Release|Win32.Build.0 = Release|Win32
+		{52B3EE52-3327-4151-9920-715F35E4269A}.Release|x64.ActiveCfg = Release|x64
+		{52B3EE52-3327-4151-9920-715F35E4269A}.Release|x64.Build.0 = Release|x64
+		{3DBD56C2-EA8F-459D-BE99-C798FC7E6045}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DBD56C2-EA8F-459D-BE99-C798FC7E6045}.Debug|Win32.Build.0 = Debug|Win32
+		{3DBD56C2-EA8F-459D-BE99-C798FC7E6045}.Debug|x64.ActiveCfg = Debug|x64
+		{3DBD56C2-EA8F-459D-BE99-C798FC7E6045}.Debug|x64.Build.0 = Debug|x64
+		{3DBD56C2-EA8F-459D-BE99-C798FC7E6045}.Release|Win32.ActiveCfg = Release|Win32
+		{3DBD56C2-EA8F-459D-BE99-C798FC7E6045}.Release|Win32.Build.0 = Release|Win32
+		{3DBD56C2-EA8F-459D-BE99-C798FC7E6045}.Release|x64.ActiveCfg = Release|x64
+		{3DBD56C2-EA8F-459D-BE99-C798FC7E6045}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
