@@ -137,6 +137,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_268 Missing Number", "_268
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_278 First Bad Version", "_278 First Bad Version\_278 First Bad Version.vcxproj", "{518D2FF3-0BCA-4EB2-AC5F-7F4D7130569C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_283 Move Zeroes", "_283 Move Zeroes\_283 Move Zeroes.vcxproj", "{6B60EC49-9138-4536-A4A1-6060D2249251}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -635,6 +637,14 @@ Global
 		{518D2FF3-0BCA-4EB2-AC5F-7F4D7130569C}.Release|Win32.Build.0 = Release|Win32
 		{518D2FF3-0BCA-4EB2-AC5F-7F4D7130569C}.Release|x64.ActiveCfg = Release|x64
 		{518D2FF3-0BCA-4EB2-AC5F-7F4D7130569C}.Release|x64.Build.0 = Release|x64
+		{6B60EC49-9138-4536-A4A1-6060D2249251}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6B60EC49-9138-4536-A4A1-6060D2249251}.Debug|Win32.Build.0 = Debug|Win32
+		{6B60EC49-9138-4536-A4A1-6060D2249251}.Debug|x64.ActiveCfg = Debug|x64
+		{6B60EC49-9138-4536-A4A1-6060D2249251}.Debug|x64.Build.0 = Debug|x64
+		{6B60EC49-9138-4536-A4A1-6060D2249251}.Release|Win32.ActiveCfg = Release|Win32
+		{6B60EC49-9138-4536-A4A1-6060D2249251}.Release|Win32.Build.0 = Release|Win32
+		{6B60EC49-9138-4536-A4A1-6060D2249251}.Release|x64.ActiveCfg = Release|x64
+		{6B60EC49-9138-4536-A4A1-6060D2249251}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
