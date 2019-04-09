@@ -139,6 +139,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_278 First Bad Version", "_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_283 Move Zeroes", "_283 Move Zeroes\_283 Move Zeroes.vcxproj", "{6B60EC49-9138-4536-A4A1-6060D2249251}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_498 Diagonal Traverse", "_498 Diagonal Traverse\_498 Diagonal Traverse.vcxproj", "{651A8974-664D-4DD0-B9B3-3C9E4B22516E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -645,6 +647,14 @@ Global
 		{6B60EC49-9138-4536-A4A1-6060D2249251}.Release|Win32.Build.0 = Release|Win32
 		{6B60EC49-9138-4536-A4A1-6060D2249251}.Release|x64.ActiveCfg = Release|x64
 		{6B60EC49-9138-4536-A4A1-6060D2249251}.Release|x64.Build.0 = Release|x64
+		{651A8974-664D-4DD0-B9B3-3C9E4B22516E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{651A8974-664D-4DD0-B9B3-3C9E4B22516E}.Debug|Win32.Build.0 = Debug|Win32
+		{651A8974-664D-4DD0-B9B3-3C9E4B22516E}.Debug|x64.ActiveCfg = Debug|x64
+		{651A8974-664D-4DD0-B9B3-3C9E4B22516E}.Debug|x64.Build.0 = Debug|x64
+		{651A8974-664D-4DD0-B9B3-3C9E4B22516E}.Release|Win32.ActiveCfg = Release|Win32
+		{651A8974-664D-4DD0-B9B3-3C9E4B22516E}.Release|Win32.Build.0 = Release|Win32
+		{651A8974-664D-4DD0-B9B3-3C9E4B22516E}.Release|x64.ActiveCfg = Release|x64
+		{651A8974-664D-4DD0-B9B3-3C9E4B22516E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
