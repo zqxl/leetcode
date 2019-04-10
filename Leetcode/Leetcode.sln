@@ -141,6 +141,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_283 Move Zeroes", "_283 Mo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_498 Diagonal Traverse", "_498 Diagonal Traverse\_498 Diagonal Traverse.vcxproj", "{651A8974-664D-4DD0-B9B3-3C9E4B22516E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_000 test", "_000 test\_000 test.vcxproj", "{F939B8C0-59C0-47E7-B5F2-7A41A3469028}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_710 Random Pick with Blacklist", "_710 Random Pick with Blacklist\_710 Random Pick with Blacklist.vcxproj", "{914C8DED-CAB7-480C-95F1-24D7AB162DCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -655,6 +659,22 @@ Global
 		{651A8974-664D-4DD0-B9B3-3C9E4B22516E}.Release|Win32.Build.0 = Release|Win32
 		{651A8974-664D-4DD0-B9B3-3C9E4B22516E}.Release|x64.ActiveCfg = Release|x64
 		{651A8974-664D-4DD0-B9B3-3C9E4B22516E}.Release|x64.Build.0 = Release|x64
+		{F939B8C0-59C0-47E7-B5F2-7A41A3469028}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F939B8C0-59C0-47E7-B5F2-7A41A3469028}.Debug|Win32.Build.0 = Debug|Win32
+		{F939B8C0-59C0-47E7-B5F2-7A41A3469028}.Debug|x64.ActiveCfg = Debug|x64
+		{F939B8C0-59C0-47E7-B5F2-7A41A3469028}.Debug|x64.Build.0 = Debug|x64
+		{F939B8C0-59C0-47E7-B5F2-7A41A3469028}.Release|Win32.ActiveCfg = Release|Win32
+		{F939B8C0-59C0-47E7-B5F2-7A41A3469028}.Release|Win32.Build.0 = Release|Win32
+		{F939B8C0-59C0-47E7-B5F2-7A41A3469028}.Release|x64.ActiveCfg = Release|x64
+		{F939B8C0-59C0-47E7-B5F2-7A41A3469028}.Release|x64.Build.0 = Release|x64
+		{914C8DED-CAB7-480C-95F1-24D7AB162DCF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{914C8DED-CAB7-480C-95F1-24D7AB162DCF}.Debug|Win32.Build.0 = Debug|Win32
+		{914C8DED-CAB7-480C-95F1-24D7AB162DCF}.Debug|x64.ActiveCfg = Debug|x64
+		{914C8DED-CAB7-480C-95F1-24D7AB162DCF}.Debug|x64.Build.0 = Debug|x64
+		{914C8DED-CAB7-480C-95F1-24D7AB162DCF}.Release|Win32.ActiveCfg = Release|Win32
+		{914C8DED-CAB7-480C-95F1-24D7AB162DCF}.Release|Win32.Build.0 = Release|Win32
+		{914C8DED-CAB7-480C-95F1-24D7AB162DCF}.Release|x64.ActiveCfg = Release|x64
+		{914C8DED-CAB7-480C-95F1-24D7AB162DCF}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
