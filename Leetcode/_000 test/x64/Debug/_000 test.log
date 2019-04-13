@@ -1,3 +1,4 @@
 ﻿  _000 test.cpp
-  _000 test.vcxproj -> F:\myprojects2017\vs2013\leetcode\Leetcode\x64\Debug\_000 test.exe
-  _000 test.vcxproj -> F:\myprojects2017\vs2013\leetcode\Leetcode\x64\Debug\_000 test.pdb (Full PDB)
+f:\myprojects2017\vs2013\leetcode\leetcode\_000 test\_000 test.cpp(17): error C2440: “初始化”: 无法从“int (__cdecl *)(int)”转换为“int (__cdecl *)(void)”
+  f:\myprojects2017\vs2013\leetcode\leetcode\_000 test\_000 test.cpp(17): note: 在匹配目标类型的范围内没有具有该名称的函数
+f:\myprojects2017\vs2013\leetcode\leetcode\_000 test\_000 test.cpp(18): error C2197: “int (__cdecl *)(void)”: 用于调用的参数太多

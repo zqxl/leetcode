@@ -145,6 +145,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_000 test", "_000 test\_000
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_710 Random Pick with Blacklist", "_710 Random Pick with Blacklist\_710 Random Pick with Blacklist.vcxproj", "{914C8DED-CAB7-480C-95F1-24D7AB162DCF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_525 Contiguous Array", "_525 Contiguous Array\_525 Contiguous Array.vcxproj", "{D0CFD9A9-BBE2-4A31-9F63-A28E3AFDC9F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -675,6 +677,14 @@ Global
 		{914C8DED-CAB7-480C-95F1-24D7AB162DCF}.Release|Win32.Build.0 = Release|Win32
 		{914C8DED-CAB7-480C-95F1-24D7AB162DCF}.Release|x64.ActiveCfg = Release|x64
 		{914C8DED-CAB7-480C-95F1-24D7AB162DCF}.Release|x64.Build.0 = Release|x64
+		{D0CFD9A9-BBE2-4A31-9F63-A28E3AFDC9F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0CFD9A9-BBE2-4A31-9F63-A28E3AFDC9F2}.Debug|Win32.Build.0 = Debug|Win32
+		{D0CFD9A9-BBE2-4A31-9F63-A28E3AFDC9F2}.Debug|x64.ActiveCfg = Debug|x64
+		{D0CFD9A9-BBE2-4A31-9F63-A28E3AFDC9F2}.Debug|x64.Build.0 = Debug|x64
+		{D0CFD9A9-BBE2-4A31-9F63-A28E3AFDC9F2}.Release|Win32.ActiveCfg = Release|Win32
+		{D0CFD9A9-BBE2-4A31-9F63-A28E3AFDC9F2}.Release|Win32.Build.0 = Release|Win32
+		{D0CFD9A9-BBE2-4A31-9F63-A28E3AFDC9F2}.Release|x64.ActiveCfg = Release|x64
+		{D0CFD9A9-BBE2-4A31-9F63-A28E3AFDC9F2}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
