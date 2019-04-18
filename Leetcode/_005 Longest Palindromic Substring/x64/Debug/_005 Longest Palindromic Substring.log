@@ -1,0 +1,5 @@
+﻿  _005 Longest Palindromic Substring.cpp
+f:\myprojects2017\vs2013\leetcode\leetcode\_005 longest palindromic substring\_005 longest palindromic substring.cpp(25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\myprojects2017\vs2013\leetcode\leetcode\_005 longest palindromic substring\_005 longest palindromic substring.cpp(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  _005 Longest Palindromic Substring.vcxproj -> F:\myprojects2017\vs2013\leetcode\Leetcode\x64\Debug\_005 Longest Palindromic Substring.exe
+  _005 Longest Palindromic Substring.vcxproj -> F:\myprojects2017\vs2013\leetcode\Leetcode\x64\Debug\_005 Longest Palindromic Substring.pdb (Full PDB)

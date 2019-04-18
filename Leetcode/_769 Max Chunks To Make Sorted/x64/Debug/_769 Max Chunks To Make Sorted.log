@@ -1,0 +1,5 @@
+﻿  _769 Max Chunks To Make Sorted.cpp
+f:\myprojects2017\vs2013\leetcode\leetcode\_769 max chunks to make sorted\_769 max chunks to make sorted.cpp(13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\myprojects2017\vs2013\leetcode\leetcode\_769 max chunks to make sorted\_769 max chunks to make sorted.cpp(57): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  _769 Max Chunks To Make Sorted.vcxproj -> F:\myprojects2017\vs2013\leetcode\Leetcode\x64\Debug\_769 Max Chunks To Make Sorted.exe
+  _769 Max Chunks To Make Sorted.vcxproj -> F:\myprojects2017\vs2013\leetcode\Leetcode\x64\Debug\_769 Max Chunks To Make Sorted.pdb (Full PDB)
