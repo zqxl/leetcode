@@ -24,9 +24,20 @@ struct TreeNode *createTreeFromArray(int *nums, int numsSize) {
 	return &nodes[0];
 }
 
+void bt_print(TreeNode *bt) {
+
+}
+
+int depth=0;
+void dfs(TreeNode *t) {
+	
+}
+
+
 int main() {
 	int nums[] = { 5,4,8,11,0,13,4,7,2,0,0,0,0,5,1 };
 	struct TreeNode* root = createTreeFromArray(nums, 15);
-
+	printf("          / \n         /");
+	getchar();
 	return 0;
 }

@@ -157,6 +157,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "__Tree codes", "__Tree code
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_784 Letter Case Permutation", "_784 Letter Case Permutation\_784 Letter Case Permutation.vcxproj", "{1D97C736-F618-4FF1-9501-29C1AAFDD17C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1038 Binary Search Tree to Greater Sum Tree", "1038 Binary Search Tree to Greater Sum Tree\1038 Binary Search Tree to Greater Sum Tree.vcxproj", "{EF8354BF-CF3F-41DC-BC69-4F8DEC8C6CA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -735,6 +737,14 @@ Global
 		{1D97C736-F618-4FF1-9501-29C1AAFDD17C}.Release|Win32.Build.0 = Release|Win32
 		{1D97C736-F618-4FF1-9501-29C1AAFDD17C}.Release|x64.ActiveCfg = Release|x64
 		{1D97C736-F618-4FF1-9501-29C1AAFDD17C}.Release|x64.Build.0 = Release|x64
+		{EF8354BF-CF3F-41DC-BC69-4F8DEC8C6CA7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EF8354BF-CF3F-41DC-BC69-4F8DEC8C6CA7}.Debug|Win32.Build.0 = Debug|Win32
+		{EF8354BF-CF3F-41DC-BC69-4F8DEC8C6CA7}.Debug|x64.ActiveCfg = Debug|x64
+		{EF8354BF-CF3F-41DC-BC69-4F8DEC8C6CA7}.Debug|x64.Build.0 = Debug|x64
+		{EF8354BF-CF3F-41DC-BC69-4F8DEC8C6CA7}.Release|Win32.ActiveCfg = Release|Win32
+		{EF8354BF-CF3F-41DC-BC69-4F8DEC8C6CA7}.Release|Win32.Build.0 = Release|Win32
+		{EF8354BF-CF3F-41DC-BC69-4F8DEC8C6CA7}.Release|x64.ActiveCfg = Release|x64
+		{EF8354BF-CF3F-41DC-BC69-4F8DEC8C6CA7}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
