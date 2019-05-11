@@ -30,25 +30,28 @@ void calTreeDepth(TreeNode *t);
 void setPrintBuffer(TreeNode *t);
 int depth = 0, column = 0;
 int depthMax = 0;
+int width = 0;
 char **printBuffer = NULL;
 void bt_print(TreeNode *bt) {
 	// 根据树的大小申请内存
 	calTreeDepth(bt);
-	int width = (1 << (depthMax - 1)) * 5;
+	width = 3 * ((1 << (depthMax - 1)) * 2 - 1);
 	int height = 1 + (depthMax - 1) * 3;
 	printBuffer = (char**)malloc(height *sizeof(char*));
-	for (int i = 0; i < depthMax; i++) {
+	for (int i = 0; i < height; i++) {
 		printBuffer[i] = (char*)malloc(width * sizeof(char));
 		memset(printBuffer[i],' ',width);
-		printBuffer[i][width - 1] = '/0';
+		printBuffer[i][width - 1] = '\0';
 	}
 
-
+	depth = 0;
+	column = width / 2;
 	setPrintBuffer(bt);
 	for (int i = 0; i < height; i++) {
 		for (int j = 0; j < width; j++) {
 			printf("%c", printBuffer[i][j]);
 		}
+		printf("\n");
 	}
 
 }
@@ -67,28 +70,28 @@ void setPrintBuffer(TreeNode *t) {
 	if (t) {
 		depth++;
 
-		printBuffer[(depth - 1) * 3][column * 5 - 3] = t->val + 0x30;
+		int val = t->val;
+		for (int i = 0; i < 3; i++) {
+			printBuffer[(depth - 1) * 3][column+1-i] = val%10 + 0x30;
+			val /= 10;
+		}
 
-		calTreeDepth(t->left);
-		column++;
-		calTreeDepth(t->right);
-		column--;
+		int step = (1<<(depthMax-depth-1))*3;
+		column -= step;
+		setPrintBuffer(t->left);
+		column += step;
+		column += step;
+		setPrintBuffer(t->right);
+		column -= step;
 		depth--;
 	}
 }
 
 
 int main() {
-	int nums[] = { 5,4,8,11,0,13,4}; //,7,2,0,0,0,0,5,1 
+	int nums[] = { 15,54,87,231,0,93,4,7,452,0,0,13,2,555,11, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 }; //
 	struct TreeNode* root = createTreeFromArray(nums, sizeof(nums)/sizeof(nums[0]));
-	//dfs(root);
 	bt_print(root);
-
-	printf(" /\n");
-	printf("/\n");
-	for (int i = 0; i < 144; i++) {
-		printf("5");
-	}
 	getchar();
 	return 0;
 }
