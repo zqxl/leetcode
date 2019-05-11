@@ -1,3 +1,5 @@
 ﻿  __Tree codes.cpp
+f:\myprojects2017\vs2013\leetcode\leetcode\__tree codes\__tree codes.cpp(43): warning C4305: “=”: 从“int”到“char”截断
+f:\myprojects2017\vs2013\leetcode\leetcode\__tree codes\__tree codes.cpp(43): warning C4309: “=”: 截断常量值
   __Tree codes.vcxproj -> F:\myprojects2017\vs2013\leetcode\Leetcode\x64\Debug\__Tree codes.exe
   __Tree codes.vcxproj -> F:\myprojects2017\vs2013\leetcode\Leetcode\x64\Debug\__Tree codes.pdb (Full PDB)
