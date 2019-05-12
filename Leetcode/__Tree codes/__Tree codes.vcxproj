@@ -144,6 +144,9 @@
   <ItemGroup>
     <ClCompile Include="__Tree codes.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__Tree codes.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

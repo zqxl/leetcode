@@ -1,16 +1,7 @@
-#include<iostream>
-#include<vector>
-#include<math.h>
-#include<malloc.h>
-using namespace std;
+#include"__Tree codes.h"
 
-// Definition for a binary tree node.
-struct TreeNode {
-	int val;
-	TreeNode *left;
-	TreeNode *right;
-	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+void calTreeDepth(TreeNode *t);
+void setPrintBuffer(TreeNode *t);
 
 // 由二维数组生成二叉树
 struct TreeNode *createTreeFromArray(int *nums, int numsSize) {
@@ -26,13 +17,19 @@ struct TreeNode *createTreeFromArray(int *nums, int numsSize) {
 	return &nodes[0];
 }
 
-void calTreeDepth(TreeNode *t);
-void setPrintBuffer(TreeNode *t);
-int depth = 0, column = 0;
+// 当前节点的深度
+int depth = 0;
+// 该树的深度，如果只有根节点则深度为1
 int depthMax = 0;
-int width = 0;
+// 打印缓冲区的宽度，当前应打印的列数，上次打印位置的列数
+int width = 0, column = 0, lastColumn = 0;
 char **printBuffer = NULL;
+
 void bt_print(TreeNode *bt) {
+	depth = 0;
+	column = 0;
+	lastColumn = 0;
+	depthMax = 0;
 	// 根据树的大小申请内存
 	calTreeDepth(bt);
 	width = 3 * ((1 << (depthMax - 1)) * 2 - 1);
@@ -46,6 +43,7 @@ void bt_print(TreeNode *bt) {
 
 	depth = 0;
 	column = width / 2;
+	lastColumn = column;
 	setPrintBuffer(bt);
 	for (int i = 0; i < height; i++) {
 		for (int j = 0; j < width; j++) {
@@ -56,6 +54,7 @@ void bt_print(TreeNode *bt) {
 
 }
 
+// 递归找到该树的最大深度
 void calTreeDepth(TreeNode *t) {
 	if (t) {
 		depth++;
@@ -66,6 +65,7 @@ void calTreeDepth(TreeNode *t) {
 	}
 }
 
+// 递归设置打印缓冲区
 void setPrintBuffer(TreeNode *t) {
 	if (t) {
 		depth++;
@@ -75,11 +75,22 @@ void setPrintBuffer(TreeNode *t) {
 			printBuffer[(depth - 1) * 3][column+1-i] = val%10 + 0x30;
 			val /= 10;
 		}
+		if (depth > 1) {
+			int linkLineInterval =  (column- lastColumn)/3;
+			char linkChar = linkLineInterval > 0 ? '\\' : '/';
+			printBuffer[(depth - 1) * 3 - 1][column - linkLineInterval] = linkChar;
+			printBuffer[(depth - 1) * 3 - 2][column - 2*linkLineInterval] = linkChar;
+		}
+		
 
 		int step = (1<<(depthMax-depth-1))*3;
+
+		lastColumn = column;
 		column -= step;
 		setPrintBuffer(t->left);
 		column += step;
+
+		lastColumn = column;
 		column += step;
 		setPrintBuffer(t->right);
 		column -= step;
@@ -89,7 +100,7 @@ void setPrintBuffer(TreeNode *t) {
 
 
 int main() {
-	int nums[] = { 15,54,87,231,0,93,4,7,452,0,0,13,2,555,11, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 }; //
+	int nums[] = { 15,54,87,231,210,560,86,7,452,10,20,13,2,150,5, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 }; //
 	struct TreeNode* root = createTreeFromArray(nums, sizeof(nums)/sizeof(nums[0]));
 	bt_print(root);
 	getchar();
