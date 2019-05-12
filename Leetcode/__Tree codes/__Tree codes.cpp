@@ -5,7 +5,6 @@ void setPrintBuffer(TreeNode *t);
 
 // 由二维数组生成二叉树
 struct TreeNode *createTreeFromArray(int *nums, int numsSize) {
-	const int numMeansNull = 0;
 	struct TreeNode *nodes = (struct TreeNode*)calloc(numsSize, sizeof(struct TreeNode));
 	for (int i = 0; i < numsSize; i++) {
 		nodes[i].val = nums[i];
@@ -65,7 +64,7 @@ void calTreeDepth(TreeNode *t) {
 	}
 }
 
-// 递归设置打印缓冲区
+// 先序遍历，将数据设置到打印缓冲区
 void setPrintBuffer(TreeNode *t) {
 	if (t) {
 		depth++;
@@ -82,7 +81,6 @@ void setPrintBuffer(TreeNode *t) {
 			printBuffer[(depth - 1) * 3 - 2][column - 2*linkLineInterval] = linkChar;
 		}
 		
-
 		int step = (1<<(depthMax-depth-1))*3;
 
 		lastColumn = column;
@@ -99,10 +97,3 @@ void setPrintBuffer(TreeNode *t) {
 }
 
 
-int main() {
-	int nums[] = { 15,54,87,231,210,560,86,7,452,10,20,13,2,150,5, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 }; //
-	struct TreeNode* root = createTreeFromArray(nums, sizeof(nums)/sizeof(nums[0]));
-	bt_print(root);
-	getchar();
-	return 0;
-}

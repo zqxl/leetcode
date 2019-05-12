@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="treeCodeTest.cpp" />
     <ClCompile Include="__Tree codes.cpp" />
   </ItemGroup>
   <ItemGroup>
