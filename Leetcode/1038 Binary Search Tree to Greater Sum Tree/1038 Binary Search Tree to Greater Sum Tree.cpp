@@ -1,8 +1,7 @@
 #include<iostream>
 #include"__Tree codes.h"
+
 using namespace std;
-
-
 
 class Solution {
 private:

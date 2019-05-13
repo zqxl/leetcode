@@ -143,6 +143,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="_98 Validate Binary Search Tree.cpp" />
+    <ClCompile Include="__Tree codes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__Tree codes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

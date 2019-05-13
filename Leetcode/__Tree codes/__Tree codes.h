@@ -1,8 +1,8 @@
 /*二叉树生成与打印程序*/
 #pragma once
 #include<stdio.h>
-#include<vector>
 #include<math.h>
+#include <memory.h>
 #include<malloc.h>
 
 // 数组中数值等与此值的元素将被视为二叉树中的空节点

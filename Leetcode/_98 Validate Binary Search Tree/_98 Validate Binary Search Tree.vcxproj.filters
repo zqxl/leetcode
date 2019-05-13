@@ -18,5 +18,13 @@
     <ClCompile Include="_98 Validate Binary Search Tree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="__Tree codes.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__Tree codes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

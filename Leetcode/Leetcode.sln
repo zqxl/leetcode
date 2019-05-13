@@ -161,6 +161,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1038 Binary Search Tree to 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_98 Validate Binary Search Tree", "_98 Validate Binary Search Tree\_98 Validate Binary Search Tree.vcxproj", "{C57CF536-2ABF-448C-AFE8-8979B481A20A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_099 Recover Binary Search Tree", "_099 Recover Binary Search Tree\_099 Recover Binary Search Tree.vcxproj", "{998158C3-9385-48B2-BB8B-FCCFDAF387E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_529_Minesweeper", "_529_Minesweeper\_529_Minesweeper.vcxproj", "{BAEDCC96-0ABC-468A-A9D8-7DEAE6DC8032}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -755,6 +759,22 @@ Global
 		{C57CF536-2ABF-448C-AFE8-8979B481A20A}.Release|Win32.Build.0 = Release|Win32
 		{C57CF536-2ABF-448C-AFE8-8979B481A20A}.Release|x64.ActiveCfg = Release|x64
 		{C57CF536-2ABF-448C-AFE8-8979B481A20A}.Release|x64.Build.0 = Release|x64
+		{998158C3-9385-48B2-BB8B-FCCFDAF387E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{998158C3-9385-48B2-BB8B-FCCFDAF387E1}.Debug|Win32.Build.0 = Debug|Win32
+		{998158C3-9385-48B2-BB8B-FCCFDAF387E1}.Debug|x64.ActiveCfg = Debug|x64
+		{998158C3-9385-48B2-BB8B-FCCFDAF387E1}.Debug|x64.Build.0 = Debug|x64
+		{998158C3-9385-48B2-BB8B-FCCFDAF387E1}.Release|Win32.ActiveCfg = Release|Win32
+		{998158C3-9385-48B2-BB8B-FCCFDAF387E1}.Release|Win32.Build.0 = Release|Win32
+		{998158C3-9385-48B2-BB8B-FCCFDAF387E1}.Release|x64.ActiveCfg = Release|x64
+		{998158C3-9385-48B2-BB8B-FCCFDAF387E1}.Release|x64.Build.0 = Release|x64
+		{BAEDCC96-0ABC-468A-A9D8-7DEAE6DC8032}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BAEDCC96-0ABC-468A-A9D8-7DEAE6DC8032}.Debug|Win32.Build.0 = Debug|Win32
+		{BAEDCC96-0ABC-468A-A9D8-7DEAE6DC8032}.Debug|x64.ActiveCfg = Debug|x64
+		{BAEDCC96-0ABC-468A-A9D8-7DEAE6DC8032}.Debug|x64.Build.0 = Debug|x64
+		{BAEDCC96-0ABC-468A-A9D8-7DEAE6DC8032}.Release|Win32.ActiveCfg = Release|Win32
+		{BAEDCC96-0ABC-468A-A9D8-7DEAE6DC8032}.Release|Win32.Build.0 = Release|Win32
+		{BAEDCC96-0ABC-468A-A9D8-7DEAE6DC8032}.Release|x64.ActiveCfg = Release|x64
+		{BAEDCC96-0ABC-468A-A9D8-7DEAE6DC8032}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
