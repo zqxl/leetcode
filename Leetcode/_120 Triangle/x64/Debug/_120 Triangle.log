@@ -1,0 +1,5 @@
+﻿  _120 Triangle.cpp
+f:\myprojects2017\vs2013\leetcode\leetcode\_120 triangle\_120 triangle.cpp(40): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\myprojects2017\vs2013\leetcode\leetcode\_120 triangle\_120 triangle.cpp(45): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  _120 Triangle.vcxproj -> F:\myprojects2017\vs2013\leetcode\Leetcode\x64\Debug\_120 Triangle.exe
+  _120 Triangle.vcxproj -> F:\myprojects2017\vs2013\leetcode\Leetcode\x64\Debug\_120 Triangle.pdb (Full PDB)

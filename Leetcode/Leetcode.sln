@@ -165,6 +165,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_099 Recover Binary Search 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_529_Minesweeper", "_529_Minesweeper\_529_Minesweeper.vcxproj", "{BAEDCC96-0ABC-468A-A9D8-7DEAE6DC8032}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_120 Triangle", "_120 Triangle\_120 Triangle.vcxproj", "{D2CB5516-8C8A-448F-94A5-EB9C9F9BF4C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -775,6 +777,14 @@ Global
 		{BAEDCC96-0ABC-468A-A9D8-7DEAE6DC8032}.Release|Win32.Build.0 = Release|Win32
 		{BAEDCC96-0ABC-468A-A9D8-7DEAE6DC8032}.Release|x64.ActiveCfg = Release|x64
 		{BAEDCC96-0ABC-468A-A9D8-7DEAE6DC8032}.Release|x64.Build.0 = Release|x64
+		{D2CB5516-8C8A-448F-94A5-EB9C9F9BF4C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2CB5516-8C8A-448F-94A5-EB9C9F9BF4C9}.Debug|Win32.Build.0 = Debug|Win32
+		{D2CB5516-8C8A-448F-94A5-EB9C9F9BF4C9}.Debug|x64.ActiveCfg = Debug|x64
+		{D2CB5516-8C8A-448F-94A5-EB9C9F9BF4C9}.Debug|x64.Build.0 = Debug|x64
+		{D2CB5516-8C8A-448F-94A5-EB9C9F9BF4C9}.Release|Win32.ActiveCfg = Release|Win32
+		{D2CB5516-8C8A-448F-94A5-EB9C9F9BF4C9}.Release|Win32.Build.0 = Release|Win32
+		{D2CB5516-8C8A-448F-94A5-EB9C9F9BF4C9}.Release|x64.ActiveCfg = Release|x64
+		{D2CB5516-8C8A-448F-94A5-EB9C9F9BF4C9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
