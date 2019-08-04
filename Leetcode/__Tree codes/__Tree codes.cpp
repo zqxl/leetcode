@@ -4,7 +4,7 @@ void calTreeDepth(TreeNode *t);
 void setPrintBuffer(TreeNode *t);
 
 // 由二维数组生成二叉树
-struct TreeNode *createTreeFromArray(int *nums, int numsSize) {
+struct TreeNode *createTreeFromArray(int *nums, int numsSize, int numMeansNull) {
 	struct TreeNode *nodes = (struct TreeNode*)calloc(numsSize, sizeof(struct TreeNode));
 	for (int i = 0; i < numsSize; i++) {
 		nodes[i].val = nums[i];

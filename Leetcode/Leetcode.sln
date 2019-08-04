@@ -167,6 +167,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_529_Minesweeper", "_529_Mi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_120 Triangle", "_120 Triangle\_120 Triangle.vcxproj", "{D2CB5516-8C8A-448F-94A5-EB9C9F9BF4C9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_113 Path Sum II C", "_113 Path Sum II C\_113 Path Sum II C.vcxproj", "{7537F418-E100-4CC1-9A96-0DE10A840699}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -785,6 +787,14 @@ Global
 		{D2CB5516-8C8A-448F-94A5-EB9C9F9BF4C9}.Release|Win32.Build.0 = Release|Win32
 		{D2CB5516-8C8A-448F-94A5-EB9C9F9BF4C9}.Release|x64.ActiveCfg = Release|x64
 		{D2CB5516-8C8A-448F-94A5-EB9C9F9BF4C9}.Release|x64.Build.0 = Release|x64
+		{7537F418-E100-4CC1-9A96-0DE10A840699}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7537F418-E100-4CC1-9A96-0DE10A840699}.Debug|Win32.Build.0 = Debug|Win32
+		{7537F418-E100-4CC1-9A96-0DE10A840699}.Debug|x64.ActiveCfg = Debug|x64
+		{7537F418-E100-4CC1-9A96-0DE10A840699}.Debug|x64.Build.0 = Debug|x64
+		{7537F418-E100-4CC1-9A96-0DE10A840699}.Release|Win32.ActiveCfg = Release|Win32
+		{7537F418-E100-4CC1-9A96-0DE10A840699}.Release|Win32.Build.0 = Release|Win32
+		{7537F418-E100-4CC1-9A96-0DE10A840699}.Release|x64.ActiveCfg = Release|x64
+		{7537F418-E100-4CC1-9A96-0DE10A840699}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
